@@ -255,7 +255,7 @@ namespace v2rayN.Handler
 
             try
             {
-                string fileName = V2rayFindexe(new List<string> { "xray", "wv2ray", "v2ray" });
+                string fileName = V2rayFindexe(new List<string> { "x", "w", "v" });
                 if (fileName == "") return -1;
 
                 Process p = new Process

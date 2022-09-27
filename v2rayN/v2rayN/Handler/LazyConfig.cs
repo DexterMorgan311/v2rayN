@@ -80,7 +80,7 @@ namespace v2rayN.Handler
             coreInfos.Add(new CoreInfo
             {
                 coreType = ECoreType.v2fly,
-                coreExes = new List<string> { "wv2ray", "v2ray" },
+                coreExes = new List<string> { "w", "v" },
                 arguments = "",
                 coreUrl = Global.v2flyCoreUrl,
                 coreReleaseApiUrl = Global.v2flyCoreUrl.Replace(@"https://github.com", @"https://api.github.com/repos"),
@@ -93,7 +93,7 @@ namespace v2rayN.Handler
             coreInfos.Add(new CoreInfo
             {
                 coreType = ECoreType.SagerNet,
-                coreExes = new List<string> { "SagerNet", "v2ray" },
+                coreExes = new List<string> { "SagerNet", "v" },
                 arguments = "run",
                 coreUrl = Global.SagerNetCoreUrl,
                 coreReleaseApiUrl = Global.SagerNetCoreUrl.Replace(@"https://github.com", @"https://api.github.com/repos"),
@@ -106,7 +106,7 @@ namespace v2rayN.Handler
             coreInfos.Add(new CoreInfo
             {
                 coreType = ECoreType.v2fly_v5,
-                coreExes = new List<string> { "v2ray" },
+                coreExes = new List<string> { "v" },
                 arguments = "run",
                 coreUrl = Global.v2flyCoreUrl,
                 coreReleaseApiUrl = Global.v2flyCoreUrl.Replace(@"https://github.com", @"https://api.github.com/repos"),
@@ -119,7 +119,7 @@ namespace v2rayN.Handler
             coreInfos.Add(new CoreInfo
             {
                 coreType = ECoreType.Xray,
-                coreExes = new List<string> { "xray" },
+                coreExes = new List<string> { "x" },
                 arguments = "",
                 coreUrl = Global.xrayCoreUrl,
                 coreReleaseApiUrl = Global.xrayCoreUrl.Replace(@"https://github.com", @"https://api.github.com/repos"),
