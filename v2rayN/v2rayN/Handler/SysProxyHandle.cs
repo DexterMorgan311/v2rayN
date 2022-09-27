@@ -38,7 +38,7 @@ namespace v2rayN.Handler
         {
             try
             {
-                FileManager.UncompressFile(Utils.GetTempPath("sysproxy.exe"),
+                FileManager.UncompressFile(Utils.GetTempPath("proxy.exe"),
                     Environment.Is64BitOperatingSystem ? Resources.sysproxy64_exe : Resources.sysproxy_exe);
             }
             catch (IOException ex)
@@ -150,7 +150,7 @@ namespace v2rayN.Handler
                 using (Process process = new Process())
                 {
                     // Configure the process using the StartInfo properties.
-                    process.StartInfo.FileName = Utils.GetTempPath("sysproxy.exe");
+                    process.StartInfo.FileName = Utils.GetTempPath("proxy.exe");
                     process.StartInfo.Arguments = arguments;
                     process.StartInfo.WorkingDirectory = Utils.GetTempPath();
                     process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
